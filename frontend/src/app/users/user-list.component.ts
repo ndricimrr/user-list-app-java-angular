@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, FormsModule], // Include CommonModule here
   templateUrl: './user-list.component.html',
+  styleUrls: ['./user-list.css'],
 })
 export class UserListComponent implements OnInit {
   users: any[] = [];
